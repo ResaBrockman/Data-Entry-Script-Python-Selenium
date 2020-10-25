@@ -7,7 +7,12 @@ File format for the excel file with applicable data contained information in the
 
 The next segments of code, clearly marked, are the methods followed by the actual data entry run.
 
-The code would find the applicable reporting class when Column 1 of the associated spreadsheet was not blank, enter the information for each line of the spreadsheet until it reached a new reporting class, save and find the new reporting class. It would continue until it hit blank lines on the spreadsheet.
+PROCESS:
+1) The code would find the applicable reporting class when Column 1 of the associated spreadsheet was not blank.
+2) Delete worker numbers from last month (these autopopulate from previously entered data - it was much easier to delete and reenter applicable lines than to match existing website lines with new months spreadsheet lines.) 
+3) Enter the information for each line of the spreadsheet until it reached a new reporting class, Save.
+4) Find the new reporting class. 
+5) Continue until it hit blank lines on the spreadsheet.
 
 This was a task that took hours of data entry, reduced to the time it took the script to run in the background. Totals were always confirmed after running to make sure the program had not malfunctioned.
 
