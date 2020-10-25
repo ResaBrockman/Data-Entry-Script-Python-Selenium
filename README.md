@@ -8,7 +8,7 @@ File format for the excel file with applicable data contained information in the
 The next segments of code, clearly marked, are the methods followed by the actual data entry run.
 
 PROCESS:
-1) The code would find the applicable reporting class when Column 1 of the associated spreadsheet was not blank.
+1) The code would find the applicable reporting class on the website when Column 1 of the associated spreadsheet was not blank.
 2) Delete worker numbers from last month (these autopopulate from previously entered data - it was much easier to delete and reenter applicable lines than to match existing website lines with new months spreadsheet lines.) 
 3) Enter the information for each line of the spreadsheet until it reached a new reporting class, Save.
 4) Find the new reporting class. 
